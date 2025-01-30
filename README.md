@@ -32,14 +32,19 @@ Este projeto implementa um **temporizador periódico** utilizando a Raspberry Pi
 | GND (Comum)  | GND |
 
 ## 📜 Como Executar o Projeto
-1. **Clone o repositório**:
+1. Clone o repositório:
    ```bash
    git clone https://github.com/lorenzobaroni/semaforo
    ```
-2. **Compile o código e envie para a Raspberry Pi Pico**:
-   - Utilize o VS Code.
-   - Certifique-se de que a **SDK da Raspberry Pi Pico** está instalada.
-   - Conecte a **Pico via USB**, entre no modo de boot (pressionando **BOOTSEL** ao conectar) e copie o arquivo `.uf2` gerado.
+2. Abra o projeto no VS Code.
+
+3. Compile o código
+
+4. Clique no arquivo diagram.json e teste o projeto no simulador do WOKWI Integrado no VS Code
+
+5. Envie o binário para a placa:
+   - Conecte o **Raspberry Pi Pico** enquanto segura o **BOOTSEL**.
+   - Copie o arquivo `.uf2` gerado para a unidade USB montada.
 
 ## 📌 Observações
 - **Caso os LEDs não acendam**, verifique as conexões e certifique-se de que os resistores estão corretos.
