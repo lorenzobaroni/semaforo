@@ -3,9 +3,9 @@
 #include "hardware/timer.h" // Inclui a biblioteca para gerenciamento de temporizadores de hardware.
 
 // Definição dos pinos dos LEDs
-#define LED_VERMELHO 11
+#define LED_VERMELHO 13
 #define LED_AMARELO 12
-#define LED_VERDE 13
+#define LED_VERDE 11
 
 // Temporização do semáforo (3 segundos)
 #define INTERVALO_TEMPO 3000 
