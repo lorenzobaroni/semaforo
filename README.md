@@ -1,11 +1,11 @@
-# 🚦 Projeto: Temporizador Periódico - Semáforo com Raspberry Pi Pico
+# 🚦 Projeto: Temporizador Periódico - Semáforo com Raspberry Pi Pico W
 
 ## 📌 Descrição
-Este projeto implementa um **temporizador periódico** utilizando a Raspberry Pi Pico para simular um **semáforo de trânsito**. O sistema controla **três LEDs** (vermelho, amarelo e verde), alternando entre eles a cada **3 segundos**.
+Este projeto implementa um **temporizador periódico** utilizando a Raspberry Pi Pico W para simular um **semáforo de trânsito**. O sistema controla **três LEDs** (vermelho, amarelo e verde), alternando entre eles a cada **3 segundos**.
 
 ## 🔗 Link do Vídeo Ensaio
 
-[Demonstração de Funcionamento do Projeto]()
+[Demonstração de Funcionamento do Projeto](https://www.youtube.com/watch?v=vZmvokWRzCE&ab_channel=LorenzoGiuseppeOliveiraBaroni)
 
 ## 🛠️ Funcionalidades
  - LED vermelho inicia ligado automaticamente assim que o código é iniciado.  
@@ -16,7 +16,7 @@ Este projeto implementa um **temporizador periódico** utilizando a Raspberry Pi
  Utiliza a biblioteca `hardware/timer.h` para funções de temporização.  
 
 ## 🖥️ Componentes Utilizados
-- 💻 **Raspberry Pi Pico**
+- 💻 **Raspberry Pi Pico W**
 - 🔴 **LED Vermelho** (GPIO 13)
 - 🟡 **LED Amarelo** (GPIO 12)
 - 🟢 **LED Verde** (GPIO 11)
@@ -43,7 +43,7 @@ Este projeto implementa um **temporizador periódico** utilizando a Raspberry Pi
 4. Clique no arquivo diagram.json e teste o projeto no simulador do WOKWI Integrado no VS Code
 
 5. Envie o binário para a placa:
-   - Conecte o **Raspberry Pi Pico** enquanto segura o **BOOTSEL**.
+   - Conecte o **Raspberry Pi Pico W** enquanto segura o **BOOTSEL**.
    - Copie o arquivo `.uf2` gerado para a unidade USB montada.
 
 ## 📌 Observações
