@@ -5,7 +5,7 @@ Este projeto implementa um **temporizador periódico** utilizando a Raspberry Pi
 
 ## 🔗 Link do Vídeo Ensaio
 
-[Demonstração de Funcionamento do Projeto](https://www.youtube.com/watch?v=vZmvokWRzCE&ab_channel=LorenzoGiuseppeOliveiraBaroni)
+[Demonstração de Funcionamento do Projeto](https://www.youtube.com/watch?v=75vI2wzrxds&ab_channel=LorenzoGiuseppeOliveiraBaroni)
 
 ## 🛠️ Funcionalidades
  - LED vermelho inicia ligado automaticamente assim que o código é iniciado.  
